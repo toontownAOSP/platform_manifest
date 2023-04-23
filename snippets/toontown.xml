@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Copyright (c) 2023 toontown OS
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+-->
+
+<manifest>
+	<!-- Remotes -->
+	<remote name="toontown"
+			fetch="https://github.com/toontownAOSP"
+			revision="tofu" />
+
+	<!-- Inherit our repositories -->
+	<project path="vendor/toontown" name="platform_vendor_toontown" remote="toontown" />
+</manifest>
